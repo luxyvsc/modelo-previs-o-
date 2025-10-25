@@ -16,7 +16,6 @@ import pandas as pd
 import tensorflow as tf
 from tensorflow.keras.layers import TextVectorization
 from tensorflow.keras.preprocessing.sequence import pad_sequences
-from sklearn.model_selection import train_test_split
 
 
 gpus = tf.config.list_physical_devices('GPU')

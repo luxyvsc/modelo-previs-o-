@@ -4,24 +4,15 @@ tensorflow-text==2.15.0
 keras==2.15.0
 
 # NVIDIA CUDA e cuDNN (instalados via conda/pip separadamente)
-nvidia-cublas-cu12==12.1.3.1
-nvidia-cudnn-cu12==9.3.0.75
+# nvidia-cublas-cu12==12.1.3.1
+# nvidia-cudnn-cu12==9.3.0.75
 
 # Bibliotecas necessárias para processamento de dados
 numpy==1.26.4
 pandas==2.2.2
-scikit-learn==1.5.1
-
-# Tokenização
-tokenizers==0.20.1
 
 # Visualização e utilidades
 matplotlib==3.10.7
-tqdm==4.67.1
-
-# Suporte extra
-protobuf==3.20.3
-ml-dtypes==0.2.0
 
 # Biblioteca para interface web
 streamlit==1.30.0
