@@ -1,18 +1,11 @@
-# TensorFlow com suporte a GPU (CUDA 12.x + cuDNN 9.x)
-tensorflow==2.15.0
-tensorflow-text==2.15.0
-keras==2.15.0
-
 # NVIDIA CUDA e cuDNN (instalados via conda/pip separadamente)
 # nvidia-cublas-cu12==12.1.3.1
 # nvidia-cudnn-cu12==9.3.0.75
 
-# Bibliotecas necessárias para processamento de dados
-numpy==1.26.4
-pandas==2.2.2
-
-# Visualização e utilidades
-matplotlib==3.10.7
-
-# Biblioteca para interface web
-streamlit==1.30.0
+tensorflow==2.20.0
+tensorflow-text==2.20.0
+keras==3.8.0
+numpy>=1.26
+pandas
+scikit-learn
+streamlit
